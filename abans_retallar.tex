@@ -1,0 +1,577 @@
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[utf8x]{inputenc}
+\usepackage[catalan]{babel}
+% A ses llengües llatines, el primer paràgraf ha d'anar tabulat
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{url}
+
+\graphicspath{{diagrames/}}
+
+% Estil de seccions
+%\titleformat{\section}{\large\sectfont}{\thesection}{1em}{}
+%\titleformat{\subsection}{\bfseries\sectfont}{\thesubsection}{1em}{}
+% Estil numeracio subseccions http://help-csli.stanford.edu/tex/latex-sections.shtml#number
+%\def\thesubsection{\alph{subsection})}
+
+%% Tamany del codi font python inserit amb el minted
+\newcommand{\codeSize}{\footnotesize}
+
+\title{Recensió STS: \\ \huge{Free Software Free Society} \\ \normalsize{Richard Mathew Stallman}}
+\author{Bartomeu Miró Mateu \thanks{bartomeumiro a gmail punt com} \\}
+
+\begin{document}
+
+  \maketitle
+
+  \newpage
+  \setcounter{page}{2}
+  \tableofcontents
+  \newpage
+
+  \section{Motivació de la lectura}
+De tota la temàtica de l'assignatura la que personalment em sent més vinculant i de
+la qual hem consider un militant es del programari lliure. Tal vegada hagués
+estat interessant llegir un llibre d'alguna altre temàtica per tal de tocar
+mes temes satisfent aquella cita:
+  
+  No llegeixis tot allò que creus.
+  
+De l'original
+
+  No et creguis tot allò que llegeixes.
+  
+El cas és que \emph{Free Software, Free Society} es una lectura obligada
+per qualsevol defensor del progrogramari lliure i així
+es maten dos pardals d'un tir.
+
+  \section{Dades bibliogràfiques}
+
+
+autor, títol, lloc d'edició, editorial, colecció i any d'edició
+
+  \section{L'autor Richard Mathew Stallman}
+  
+Richard Mathew Stallman o \emph{rms} es considerat el pare del programari lliure i
+pioner del terme \emph{copyleft}.
+
+Stallman nasqué al 1953 i es formà com a físic al MIT on treballà com a programador
+fins que inicià el moviment del programari lliure amb el projecte GNU el qual
+pretenia ser un sistema operatiu lliure basat en \emph{Unix}. 
+Stallman és considerat un hacker de personalitat peculiar
+ha entregat la seva vida al programari lliure convertint-se en gairebé un profeta de la causa,
+cosa amb la qual ell sovint bromeja \footnote{TODO Referencia san ignucio}.
+
+A banda de ser un reconegut programador per la comunitat també es conegut per el seu
+difícil caràcter possiblement per el sindrome d'Asperger.
+
+Finalment cal destacar que \emph{rms} es mostra molt compromés politicament declarant-se activista
+solidaritzat amb un gran nombre de causes com l'ecologisme, socialisme o i en contra de mecanismes
+de control per part dels més poderosos com ara els carnets d'identitat,
+targetes de crèdit, xarxes socials i un llarg etc. Dit activsime el segueix de manera religiosa
+i obsesiva la qual cosa el converteix en una persona molt coherent alhora que es criticat
+per quedar al marge de segons quins aspectes de la societat.
+
+  \section{El llibre}
+
+El llibre és un recull estructurat d'assajos que ha anat publicant Richard M. Stallman
+al llarg dels últims anys relacionats amb el programari lliure. Els assajos estan ordenats
+seguit un fil argumental oferint una base conceptual i de motivacions per iniciar el moviment
+del programari lliure fins a l'aprofundització de temes concrets com ara el \emph{copyright} o
+les patents de programari.
+
+En l'inici del llibre gran part dels assajos es corresponen
+als primers en ordre cronològic ja que són els que parlen de les bases i l'inici històric
+del moviment del programari lliure però sovint es romp introduint d'altres assajos
+que perfilen millor els temes que es van tractant.
+
+Dita ruptura temporal es gairebé invisible al lector, de fet l'única manera de sabre
+quin és l'ordre cronològic dels assajos es cercant la data de publicació ja que el
+contingut del text està escrit de manera que sembla atemporal, gran part de la
+problemàtica i arguments no han canviat gairebé gens dels últims 20 anys fins ara.
+
+S'ha de tenir amb compte que l'autor sempre s'ha mogut en un ambient tècnic i per
+tant el \emph{boom} d'Internet, que ha estat el gran canvi en el sector dels últims 20-25
+anys, gairebé no l'afecta ja que des de l'inici al seu entorn ja està completament
+en xarxa i dona per suposat aquest mitjà.
+
+El llibre està escrit perquè qualsevol persona en pugui llegir, entendre i assimilar
+els arguments. No obstant el fet d'entendre com són els programes i haver tingut
+experència com a programador facilita la comprensió de determinats temes. Un exemple
+simple seria que un programador sap perfectement que desensamblar un programa
+per tal de modificar-lo sense el codi font es una feina inviable, mentre que 
+una una persona aliena al tema simplement s'ha d'agafar l'argument com a dogma.
+
+Algun d'aquests temes són tractats a la introducció de manera breu encara
+que com s'ha dit no es el mateix creurer-s'ho que haver-ho sofrit davant el teclat.
+
+De totes maneres si s'enten la particularitat del programari que pot ser copiat sense
+cost i com es desenvolupa tot el llibre es pot agafar com una divagació filosòfica
+sobre això.
+
+  \subsection{Estructura}
+
+El llibre està dividit en quatre seccions on dins cada una hi ha un conjunt d'assajos
+de temàtica relacionada. Dins cada assaig sovint hi ha una enumeració de punts o temes
+que envolten dita qüestió clarament separats per capçaleres de títol.
+
+La primera secció està dedicada a l'explicació del projecte GNU on s'exposen
+els inicis del projecte i les motivacions personals per iniciar el moviment del
+programari lliure, el projecte GNU.
+
+La secció s'inicia amb un component històric per mostrar
+els principis ètics del programari lliure i acaba immers de ple mostrant la
+filosofia del programari lliure.
+
+En la segona secció ja trobam tota una bateria d'assajos relacionats amb
+copyright, copyleft i patents de programari que cerquen l'origen de cada terme
+, explicant quin es l'esperit del terme a qui haurien de beneficiar, a qui
+beneficient en realitat, a qui perjudiquen i com els podem emprar
+al nostre favor o com haurien de ser modificats per beneficiar a la
+societat i no només uns pocs. En funció de l'assaig s'agafa un terme o un altre
+intentant desmentir tòpics i veure els prejudicis associats a cada terme.
+
+En la tercera secció es torna a fer un repas de les idees exposades
+als dos anteriors fent més emfasi en la influènica del programari
+lliure en la societat intentant generalitzar encara més les
+consequències del programari lliure ampliant la visió a la societat
+en conjunt i no només com beneficia a cada un dels individus.
+
+Finalment l'ultima secció està dedicada a les tres llicències més famoses
+de la \emph{Free Software Foundation}, la \emph{GNU General Public License},
+\emph{GNU Lesser General Public License} i \emph{Free Documentation License}.
+En aquest apartat simplement estàn escrites les llicències sense introduccions ni comentaris.
+
+Cal dir que les úniques seccions realment diferenciades són la primera on es veu
+clarament com es parla dels inicis històrics i motivacions del projecte GNU i la quarta on hi ha les llicències.
+Les demés seccions són dificils de distingir i hi ha assajos que tant podrien estar a una com l'altre.
+
+  \subsection{Eixos argumentals}
+  
+En aquest punt s'intenten explicar els eixos argumentals del llibre, vindria a ser un intent
+de síntesi del que queda en haver llegit el llibre.
+
+\subsubsection{El programari una matèria particular}
+El programari degut a la seva manera de ser, son bits informació, pot ser copiat sense cost.
+A més el programari evoluciona i té sentit fer hi modificacions per millorar-lo i adaptar-lo
+a les nostres necessitats. Així doncs qui tigui el codi font d'aquell programari te el 
+poder de fer aquestes modificacions i adaptacions, a més de poder sabre que es el que
+realment fa aquell programa. En contrast l'usuari del programa pot tenir sols la versió
+binària o executable que no permet veure ni tocar les etranyes del programa.
+
+Així doncs la persona que sols te un executable esta a la mercè de la volutat de qui
+te el codi font. Si be es cert que l'usuari es aparentment lliure de triar el programa
+que vol executar.
+
+Aquest es el model que hem viscut tots sobre el programari uns el fan i els altres el 
+consumeixen.
+
+Aquest model no sempre ha estat així i de fet ha vingut imposat per les grans
+companyies de programari. Inicialment els programes es compartien juntament
+amb el codi font, de tal manera que qualsevol que tingues el programa també tenia
+la possibilitat de modificar-lo i si volia seguir-lo compartint. Aquest es el model
+en que Stallman va iniciar-se com a programador i al que vol tornar després
+de la perversió del programari imposat per les empreses de programari.
+
+La clau es que les empreses de programari cercen protecció de les lleis ja sigui
+adaptant les ja existens per objectes materials com creant-ne d'espeficiques per ells.
+Segons Stallman el que pretenen les grans empreses de programari es que primi el seu
+benefici econòmic particular per sobre de la llibertat dels usuaris de compartir i
+cooperar.
+
+En el llibre es destaca que el programari lliure no es un tema de cost,
+el programari lliure pot ser de pagament però no pots impedir que despres quin
+t'ha pagat el programari el comparteixi.
+
+El que preten fer veure Stallman es que no podem aplicar al programari
+la mateixa lògica que els objectes materials. Els objectes materials si els
+dones tu el perds mentre que amb el programari tu pots donar-lo sense
+perdre'l.
+
+Un programa per ser lliure segons RMS ha de donar a l'usuari quatre llibertats:
+  
+  Ha de poder execurar-se per qualsevol propòsit.
+  Ha de poder ser redistribuit.
+  Ha de poder ser modifiat.
+  Ha den de poder ser redistribuides les seves modificacions.
+  
+Adicionalment Stallman creu que per evitar que aquest programa
+deixi de ser lliure s'ha de afegir la condició de que les versions
+modificades han d'estar sobre la mateixa llicència que l'original,
+d'això s'en diu la condició vírica de la llicència.
+
+Per tal que això tingui sentit qualsevol versió binaria del programa
+que es entregada ha de venir amb una còpia del codi font o amb la
+manera d'obtenir-lo.
+
+\subsubsection{Les quatre llibertats del programari lliure}
+Així doncs convé entrar en detall en les quatre llibertats mencionades
+anteriorment ja que són els pilars del programari lliure i tota
+la filosofia associada.
+
+\paragraph{La primera llibertat} preten atacar les limitacions d'us del programa,
+sonvint programes privatius permeten l'us sense cost si la
+tasca es educacional o sense ànim de lucre però després s'imposen
+restriccons en l'àmbit professional. Segons Stallman això no
+es mes que una trampa per acostumar-se al programa i després
+tenir-te una dependència. Així doncs el fet de permetre que en l'ambit
+educacional sigui gratuit o es permeti el seu us no es un fet
+altruista sinó completament interessat.
+
+Aquest punt pot aixecar controverises certes controvèrsies. N'hi ha
+una que no apareix al llibre però consider interessant. Suposem
+un programador pacifista que elabora un programa i el llicencia
+sote GNU GPL. Així doncs el programa pot ser emprat per qualsevol
+propòsit. Suposem ara que algun exèrcit pot emprar aquest programa
+o alguna versió lleguerament modificada per fins bèlics.
+
+Al programador d'ideologia pacificsta tal vegada no li agradi aquest
+fet i haurà de decidir que prima més per ell, si un us inapropiat del
+programa o la llibertat global.
+
+Stallman al llibre parla directament d'aquest problema però si que
+s'intueix que per ell es molt mes important la llibertat, un programa
+un cop lliurat l'usuari passa a tenir tots els drets tant per coses
+bones com dolentes. Segons Stallman les coses \emph{dolentes}
+s'han de controlar mitjançant altres eines legals que no pas la llicència,
+que el fet de incloure limitacions d'ús en una llicència lliure
+pot sembrar un mal precedent.
+
+\paragraph{La segona llibertat} parla del dret a la redistribució per Stallman
+això s'ha de veure com compartir. Compartir es bo i ens ho ensenyen
+així des de petits però a mesura que ens feim grans veim que aquest
+fet tant bonic sovint xoca amb altres interessos.
+
+Per Stallman si algu empra un programa i el seu vei també el vol
+o necessita se li ha de deixar, l'autor del programa no te cap pèrdua
+amb que un altre usuari empri el seu programa encara que l'autor
+el faci pagar. Si el programa es lliure i qui el necessiti pot
+asumir el preu no te cap motiu per no pagar, simplement ho fara
+perque sap que aixi contribueix al desenvolupament del mateix.
+Per altra banda si no el paga tal vegada sigui perque el cost
+es massa elevat, en aquest cas ens trobam que aquesta persona
+veu limitades les seves accions per el captial que posseeix,
+que emprar programari es torna una cosa elitista i per tant injusta.
+
+Aqui hom pot pensar que així els autors o programadors no
+poden guanyar diners o viure del seu treball, això serà detallat
+en un punt posterior on es parla del model de negoci.
+
+\paragraph{La tercera llibertat} és conseqüència de que
+un cop un programa pot ser executat i redistribuit te sentit que 
+sigui modificat. Tot programa pot ser modificat millorat, adaptat
+etc. Com a informàtics sabem que no existeixen els programes
+sense errors, així doncs te sentit que podem modificar els nostres programes.
+
+Aquesta llibertat el que fa es llevar-te la dependencia el programador 
+que inicialment ha fet el programa permetent que tu mateix puguis
+fer les modificacions o comanar-ho a algu que ho faci.
+
+Segons Stallman els autors programari empren simils amb la realitat només
+quan els convé, per exemple diguen que el programari es un producte i que
+per tant s'han de pagar les còpies. Per altre banda si es fa un simil
+amb el món material en les modificacions del programa trobam que
+un obrer pot construir-te una casa però després no tens perque contractar
+el mateix obrer per fer modificacions o remodelacions. Amb el programari
+si aquest no es lliure quedes vinculat per llicència o simplement
+perque no disposes del codi font a l'autor que l'ha fet.
+
+Així doncs que el programa pugui ser modificat es el més \emph{natural}
+l'artifici es limitar aquesta llibertat per benficiar a uns pocs.
+Entenent natural com el fet més comú i que al llarg de la història
+han anat perdurant.
+
+Aquí es pot posar l'exemple del Windows XP el qual no estava en català.
+La Generalitat va creure que era positiu per la llengua catalana
+que aquest fos traduit. Per llicència dita traducció no pot fer-se
+sense el consentiment de Microsoft, així doncs la Generalitat
+va haver de pagar per tenir el consentiment per fer la traduccció.
+A més la Generalitat va pagar també a un tercer que va fer la traducció
+i finalment aquesta va ser distribuida sense cost.
+Microsoft va obtenir un millor producte sense esforç i a més
+cobrant per senzillament \emph{donar el consentiment}.
+
+En aquest exemple es veu clara la dependència que pot generar un programa
+no lliure que a més ha aconseguit una posició dominant i l'absurd
+de pagar a algú  per millorar el seu propi producte que també el beneficia.
+
+Hom pot preguntar: I que passa si no es tenen diners per pagar el
+consentiment del Microsoft per traduir-lo al català?
+No tenim dret els catalans a poder veure el sistema operatiu
+en la nostra llengua? Encara que nosaltres facem la feina?
+
+\paragraph{Finalment la quarta llibertat} parla de poder redistribuir les modificacions,
+aquesta si s'han assumit les primers es lògica, l'unic argument
+que pot formular-se en contra es que la versió modificada del programa
+sigui millor que l'inicial i que així doncs l'original deixi de ser
+emprat. Dit argument sols perjudica a l'autor de l'original si 
+es que aquest te un sistema de retribucions per numero de copies del programa
+en us. Per altra banda tenim tots els usuaris emprant una versió millor
+del programa. Altre cop cop ens trobam en l'enfrontament autor usuari
+que ja ha estat discutit en els punts anteirors.
+
+
+\subsection{Codi obert \emph{(Open Source)} vs Programari Lliure}
+Segons Stallman la diferència crucial es que el programari lliure exigeix
+que les copies també siguin lliures cosa que el codi obert no.
+
+L'unic motiu a favor del codi obert es incitar algú a
+iniciar-se en el codi obert i després tancar el codi o tenir part del
+codi tancada i l'altre oberta.
+
+Aquest fet es perjudicial ja que no elimina el problema, un com s'ha
+tancant el codi o part d'ell encara que aquest fos inicialment lliure tornam
+a caure en exactament els mateixos problemes que amb codi privatiu.
+
+Adicionalment tot el treball que pot haver fet una comunitat per un programa
+si aquest es lliure tota modificació torna a revertir a la cominitat,
+si aquest es sols obert algú pot fer una millora que és distribuida 
+de manera no lliure i que per tant no torna a revertir a la comunitat.
+
+Per Stallman la questió no es nomes poder veure el codi si aquest no pot
+ser modificat no te cap sentit. A més Stallman creu que el fet de dir
+Open Source dona un valor afegit al teu programa, aquest valor afegit
+fa creure que pots modificar el programa però no te perque ser aixi,
+una llicència open source pot sols permetret veure el codi, o veure i modificar
+però no redistribuir etc.
+
+Així doncs Stallman creu que el codi obert es beneficia del concepte de programari
+lliure però essent una trampa ja que no tenen perque ser equivalents.
+
+Posem un exemple de dit cas. Suposem que feim un programa de compresió de dades.
+Ens interessa molt que la gent empri el nostre format així doncs feim
+que l'algorisme de compresió sigui open source.
+
+D'aquesta manera aconseguim que molta gent vegi el codi i fins i tot l'implementi
+als seus sistemes operatius. D'aquesta manera aconseguim que el nostre format
+s'extengui. Un cop està establert el que feim es tancar el codi i fer unes petites
+millores. En aquest punt per inèrcia la gent seguirà emprant el format però
+com que no tenen dret a modificació del codi font original amb open source
+nomes el poden veure i compilar hauran d'abandonar-lo per la versió privativa
+i ja tornam a estar amb el problema inicial.
+
+El codi obert no garanteix la llibertat de l'usuari, de fet segons Stallman
+pot ser emprat de trampa comercial. La diferencia entre programari lliure
+i open source es precisament el caràcter víric que assegura que el programa
+no serà tancat així doncs si volem un programa lliure i no només actualment
+sinó també en un futur s'han d'evitar les llicències open source.
+
+
+\subsection{Programari lliure i societat}
+El fet de emprar programari lliure el que fa es fomentar el valor de la cooperació,
+tots participam en el desenvolupament del programa; en front de la competència,
+tots desenvolupam programes diferents i el millor tendrà més èxit.
+
+Si es mira desde el punt de vista de l'eficiència dos programes que fan el
+mateix i son incompatibles (el programari privatiu tendeix a fer-se incompatible
+amb altres perque sols sigui emprat ell) arribarà un moment en que possiblement
+un dels dos sigui més emprat fins al punt que el segon deixerà de tenir sentit.
+
+El programa que deixa de tenir sentit també es fruit de moltes hores de treball
+i aquestes quan el programa desapareix també desapareixen. Es cert que tal
+vegada la competència hagi fet que les funcionalitats d'aques programa
+hagin induit a millorar l'altre que també les ha implementat però dites
+funcionalitats hauran estat implementades per duplicat.
+
+Stallman creu que si en lloc d'això es coopera en un mateix programari el nombre
+d'hores totals invertides es menor ja que no hi ha hores tudades fent centenars
+de programes iguals com passa en el cas del programari privatiu.
+
+El fet que hi hagi programes que fan el mateix no es dolent de per si,
+el que es dolent que tu per voler afegir una funcionalitat a un programa
+l'hagis de fer des de zero perquè no tens accés al codi font.
+
+Per altra banda al poder ser el programa redistribuit els usuaris el
+poden compartir en funció de les seves necessitats així doncs creen
+vincles amistosos entre ells. Dins vincles no poden ser establerts
+amb el programari privatiu ja que els usuaris han de traïr les seves
+amistats per obeir al desenvolupador que diu que està prohibit redistribuir-se les còpies.
+
+Així doncs el programari lliure fomenta valors com la cooperació, eficàcia i la solideritat,
+tots ells valors que la societat classifica com a positius i que han de ser potenciats.
+
+\subsection{Programari lliure i el seu model de negoci}
+
+En el llibre Stallman de manera incansable repeteix que no s'ha de confondre
+lliure i gratuït ja que en anglès \emph{free} pot voler dir ambdues coses.
+
+De fet en diverses ocasions remarca que va iniciar el moviment del programari lliure
+venent els seus programes que eren evidentment lliures.
+
+Stallman reconeix que amb el programari lliure tal vegada no es guanyin tants tants
+diners com el privatiu (recordem que un dels homes més rics del món s'hi ha fet 
+venent programari) però es això un problema? Segons Stallman clar que no, que uns
+molt pocs desenvolupadors o empresaris no siguin multimilionaris en front
+de que tots els usuaris siguin més lliures no suposa cap problema en absolut.
+
+Així i tot hi ha diversos punts a tractar sobre el cost del programari
+emmarcats en el sistema econòmic en el que vivim.
+
+En primer lloc pot pensar-se que si no es paga per les còpies els
+desenvolupadors o autors no tendran benefici.
+
+Per començar aquest argument es fals, parteix del fet que ningú
+pagarà cap copia i no és cert. Si la gent valora el programa
+no hi ha motius per pensar que voldan copiar-lo sense pagar i si
+ho fan possiblement es perquè no puguin pagar el preu fixat.
+
+De fet hi ha una experència actual i no contemplada al llibre i 
+es que en el mon dels videojocs existeix el Indie Pack, aquest
+son un conjunt de videojocs on la gent
+paga el que vol i pot redistribuir-los gratuitament.
+
+Per ara totes les edicions (i ja van 5) abans de la primera
+setmana ja havien passat el milió de dòlars en recaptació.
+
+Una altre manera de pagar als desenvolupadors es entenent
+el programari com un servei i no com un producte. Així doncs
+tu a mes (o en lloc) de pagar la còpia pages al desenvolupador
+per les modificacions al programa, perque l'adapti al que tu vols
+o simplement continui amb el desenvolupament, com una quota.
+
+Per altra banda com que els programes podens ser emprats per
+tothom també tindria sentit que els desenvolupadors rebessin subvecions.
+
+De fet si es paguessin a programadors en lloc de comprar programari
+privatiu per part de l'administració públic la cosa ascendeix
+a xifres astronòmiques. Tant es aixi que a comunitats españoles
+com Extremadura prefereixen emprar programari lliure i estalviar
+diners a emprar el programari privatiu.
+
+També pot considerar-se el fet que els estudiants universitaris
+vinculats a carreres tècniques poden realitzat practiques i PFC
+relacionats amb programari lliure.
+
+Finalment Stallman també menciona la possibilitat que cada
+equip informàtic venut tengui una petita taxa que gestioni
+l'estat o alguna entitat per tal de repartir-la entre
+desenvolupadors de programari lliure.
+
+Cal esmentar que determinades empreses que no es dediquen
+al programari però si l'empren poden argumentar que si
+alliberen el seu codi estan afavorint a la competència.
+
+En aquest punt es pot dir que si es així la competència
+també voldra millorar el programa i per tant si aquest
+es lliure les millores tornen a revertir a l'empresa original.
+
+Per altre banda si bé es cert que tal vegada una empresa pugui
+ser perjudicada s'ha de tenir amb compte la vist en conjunt
+la socientat en general es veu beneficiada. Ja comença a ser
+hora de veure que vivim en un mon globalitzat i no hem 
+de mirar nomes el benefici propi o de curt abanst sinó
+el que ens afecta a tots.
+
+\subsection{El problema del nom i paraules prohibides}
+Segons Stallman el llenguatge es una arma molt perillosa
+i sovint emprar segons quines paraules associa el fet a
+determinats conceptes que a priori poden no ser clars,
+es per això que dedica un assaig sencer a paraules
+mostrant els conceptes que porten associats i com
+determinats sectors les fan servir per manipular 
+l'usuari en el seu benfici.
+
+Crec que es interessant mencionar-ne unes quantes
+ja que despres d'entendre la situació si es sent
+un interlocutor rapidament es pot veure quina
+es la seva manera de pensar i sobretot es poden
+veure quins pensaments hi ha sovint ocults darrera
+les seves paraules.
+
+Per altra banda veient els conceptes associats a les paraules
+també s'agafa consciència de com funciona el món en el que
+vivim i quin es l'origen de cada terme i com a conseqüència
+de cada situació que vivim.
+
+
+
+
+
+\subsection{Quina es la batalla}
+
+Stallman no parla de prohibir el programari privatiu, simplement recomana
+no emprar-lo, intenta fer veure que si ningú l'empra i tothom empra
+programari lliure les coses funcionaran millor. El problema es que
+a dia d'avui el programari lliure es perseguit i posat en perill per coses
+com les patents de programari, a més de no comptar amb els suport
+de grans fabricants.
+
+Al cap i a la fi per la major part de la gent la informàtica es una
+eina que ha de funcionar, així doncs a la gent li costa emprar una cosa
+amb la qual te un suport tècnic baix o difícil en front d'una empresa
+que tot hi no semblar molt bona dona una seguretat.
+
+Per tant el camí es desenvolupar bon programari lliure i conscienciar a
+la gent dels aventatges que té front a la problemàtica del programari
+privatiu, així com lluitar perquè lleis com les patents de programari
+no s'intaurin en la legislació o siguin derogades.
+
+
+
+
+
+
+
+
+
+  \section{Valoració personal}
+
+L'estructura del llibre pot millorar-se. S'ha de tenir amb compte que es simplement
+un recull d'assajos però a l'acabar-lo i pensar en un assaig es dificil ubicar-lo en alguna de la seccions.
+
+En aquest sentit si hom espera un llibre amb un fil argumental completament definit no ho trobarà,
+un cop llegit els primers assajos s'enten la idea del programari lliure i després senzillament
+es fan voltes desde mútliples vessants i veien les conseqüències en inumerables àmbits i situacions.
+
+S'ha de dir que sovint al plantejar els diferents àmbits l'autor també mostra la seva ideologia
+ la qual cosa també enriqueix al lector. Algun cas concret
+es del capitol 4 de la primera secció al paràgraf \emph{The Law} on es fa una petita reflexió
+de que la gent no ha de limitar les seves accions al que dicta la llei ja que aquesta es va format
+i depen del context cultural. Explicitament cita lleis racistes dels Estats Units que per ser llei
+no la feien menys racista i injusta.
+
+Com aquesta en multiples ocasions Stallman detalla el funcionament d'algun element de la societat
+que sovint es veu com inquestionable mostrant el seu origein i sovint com aquest s'ha pervertit
+per afavorir els més poderosos.
+
+Dins del llibre també es poden observar petits detalls personals de l'autor. Un que va soprendrem
+i alhora dibuixar un somriure es el fet que parli d'un dels seus amors que es deia (o portava el pseudonim)
+d'Alyx i que com a bon informàtic enamporat Stallman li dedicà una modul del kernel Hurd posant-li el seu nom.
+Desafortunadament i com sovint bromeja en públic la cosa no funcionà i defensar el programari lliure
+a mode de profeta no requereix celibat però sovint l'implica.
+
+Per altra banda hi ha d'altes qüestions que ja depenen més de la percepció del lector. En aquest cas
+vaig notar certa rabia cap al moviment Open Source al capitol \emph{Why Free Software is better than Open Source}.
+En ell es percep cert recor cap a moviment \emph{Open Source} per haver eclipsat part del seu treball. Dit odi no es veu
+cap al programari privatiu el qual es l'enemic, simplement es plateja com una molt mala opció perjudicial però
+l'argumentació es neta. En canvi en l'enfrontament amb l'\emph{Open Source} s'exposen els arguments i s'afegeix cert
+tò d'enveja que per altre banda crec innecessari i menys d'una persona que està acostumada a viure a contra corrent
+sense rebre gaire reconeixement social.
+
+El llibre en si està prou bé es molt complet però pel meu gust un xic repetitiu. Tal vegada s'en podria
+fer una versió mes reduïda amb un subconjunt dels assajos que apareixen i s'en treuria més rendiment,
+seria més ràpid i mes fàcil de difondre al públic en general. Per una banda no vull desmereixer l'autor
+però per l'altre he de reconeixer que tot hi estar molt interessant en el tema alguns dels capitols
+s'han fet dificils de llegir tot i ser breus. Si be es cert que eren del final quan ja s'ha exposat
+gairebé tot i simplement es recargolen més els argumans a més de que per part meva que no estic acosumat
+a llegir llibres d'assajos.
+
+  \subsection{Assajos interessants}
+Completant la secció anterior aqui expòs quins son els assajos mes recomanables i el perquè.
+
+En general els mes recomanats son els del principi ja que es on s'assenten les bases i a més
+hi ha mes component històric que a més de ser interessant resula més fàcil de llegir.
+
+
+
+
+
+  \input{peu}
+
+\end{document}
+
+
+
+
